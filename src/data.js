@@ -21,6 +21,6 @@ export const projects = [
     src: "alsuper.png",
     color: "#f40d0d",
     width: 500,
-    height: 300 
+    height: 250
   }
 ]
