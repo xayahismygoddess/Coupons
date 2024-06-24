@@ -41,13 +41,14 @@
           border: none;
           border-radius: 5px;
           cursor: pointer;
-          background-color: #0070f3;
-          color: white;
+          background-color: #ffffff;
+          color: rgb(0, 0, 0);
           transition: background-color 0.3s;
           width: 180px;  // Added fixed width to make buttons wider
 
           &:hover {
-            background-color: #005bb5;
+            background-color: #000000;
+            color: #ffffff;
           }
         }
       }

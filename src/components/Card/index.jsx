@@ -23,9 +23,9 @@ const Card = ({ i, title, description, src, url, color, progress, range, targetS
         <div className={styles.body}>
           {/* Buttons section */}
           <div className={styles.buttonsContainer}>
-            <button className={styles.button}>Button 1</button>
-            <button className={styles.button}>Button 2</button>
-            <button className={styles.button}>Button 3</button>
+            <button className={styles.button}>10% Off</button>
+            <button className={styles.button}>20% Off</button>
+            <button className={styles.button}>30% Off</button>
           </div>
           
           <div className={styles.description}>
