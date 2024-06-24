@@ -1,0 +1,7 @@
+.main {
+  position: relative;
+  min-height: 100vh; /* Ensure main takes at least the height of the viewport */
+  background-size: cover; /* Ensure background image covers the entire main element */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+}
