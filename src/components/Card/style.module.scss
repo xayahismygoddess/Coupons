@@ -12,11 +12,12 @@
   flex-direction: column;
   position: relative;
   height: 500px;
-  width: 10000px;
-  border-radius: 25px;
-  padding: 50px;
+  width: 960px;
+  border-radius: 55px;
+  padding: 40px;
   transform-origin: top;
-  background-color: #d32f2f; /* Background color to match the image */
+  backdrop-filter:blur(300px);
+ 
 
   h2 {
     text-align: center;
@@ -28,30 +29,34 @@
     display: flex;
     height: 100%;
     margin-top: 50px;
-    gap: 50px;
-
+    gap: 40px;
+  
     .buttonsContainer {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 30px;
       align-items: center;
       justify-content: center; /* Center the buttons */
       flex: 1; /* Make this container take up equal space */
+      margin-left: 65px; /* Add margin-left to move the buttons to the right */
 
       .button {
-        padding: 10px 30px;
+        padding: 10px 65px;
         font-size: 16px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         background-color: #ffffff;
         color: rgb(0, 0, 0);
-        transition: background-color 0.3s;
+        transition: background-color 0.5s;
         width: 180px;
 
         &:hover {
-          background-color: #000000;
+          background-color: transparent;
+          backdrop-filter: blur(10000000px);
           color: #ffffff;
+          outline: 2px solid #ffffff;
+          border-radius: 10px;
         }
       }
     }
@@ -96,7 +101,7 @@
       }
 
       img {
-        object-fit: cover;
+        object-fit: fill;
       }
     }
   }

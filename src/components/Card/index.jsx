@@ -23,9 +23,30 @@ const Card = ({ i, title, description, src, url, color, progress, range, targetS
         <div className={styles.body}>
           {/* Buttons section */}
           <div className={styles.buttonsContainer}>
-            <button className={styles.button}>10% Off</button>
-            <button className={styles.button}>20% Off</button>
-            <button className={styles.button}>30% Off</button>
+            <motion.button
+              className={styles.button}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              10% Off
+            </motion.button>
+            <motion.button
+              className={styles.button}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              20% Off
+            </motion.button>
+            <motion.button
+              className={styles.button}
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              30% Off
+            </motion.button>
           </div>
           
           <div className={styles.description}>
