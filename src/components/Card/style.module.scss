@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 .cardContainer {
   height: 100vh;
   display: flex;
@@ -16,8 +18,7 @@
   border-radius: 55px;
   padding: 40px;
   transform-origin: top;
-  backdrop-filter:blur(300px);
- 
+  backdrop-filter: blur(300px);
 
   h2 {
     text-align: center;
@@ -30,32 +31,32 @@
     height: 100%;
     margin-top: 50px;
     gap: 40px;
-  
+
     .buttonsContainer {
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 45px;
       align-items: center;
       justify-content: center; /* Center the buttons */
       flex: 1; /* Make this container take up equal space */
       margin-left: 65px; /* Add margin-left to move the buttons to the right */
 
       .button {
-        padding: 10px 65px;
-        font-size: 16px;
+        padding: 10px 35px;
+        font-size: 25px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
+        font-weight: bold;
+        background-color: transparent;
+        color: #ffffff;
         transition: background-color 0.5s;
-        width: 180px;
+        width: 200px;
+        font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
 
         &:hover {
-          background-color: transparent;
-          backdrop-filter: blur(10000000px);
-          color: #ffffff;
-          outline: 2px solid #ffffff;
+          background-color: #ffffff;
+          color: #000;    
           border-radius: 10px;
         }
       }
