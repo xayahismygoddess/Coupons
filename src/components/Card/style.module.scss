@@ -7,6 +7,7 @@
   justify-content: center;
   position: sticky;
   top: 0px;
+  
 }
 
 .card {
@@ -18,8 +19,7 @@
   border-radius: 55px;
   padding: 40px;
   transform-origin: top;
-  backdrop-filter: blur(300px);
-
+  outline: 5px solid #000;
   h2 {
     text-align: center;
     margin: 0px;
@@ -31,6 +31,7 @@
     height: 100%;
     margin-top: 50px;
     gap: 40px;
+   
 
     .buttonsContainer {
       display: flex;
@@ -55,8 +56,9 @@
         font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
 
         &:hover {
+          
+          color:black; 
           background-color: #ffffff;
-          color: #000;    
           border-radius: 10px;
         }
       }

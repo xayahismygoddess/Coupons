@@ -14,6 +14,7 @@ export const projects = [
     color: "#004b8d",
     width: 500,
     height: 250
+
   },
   {
     title: " ",
