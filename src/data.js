@@ -19,8 +19,8 @@ export const projects = [
   {
     title: " ",
     description: " ",
-    src: "alsuper.png",
-    color: "#f40d0d",
+    src: "Costco.svg",
+    color: "#E32A36",
     width: 500,
     height: 250
   }
